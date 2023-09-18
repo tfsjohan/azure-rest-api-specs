@@ -2614,9 +2614,9 @@
           "readOnly": true
         },
         "properties": {
-            "$ref": "#/definitions/PrivateLinkResourceProperties",
-            "description": "The private link resource properties.",
-            "readOnly": true
+          "$ref": "#/definitions/PrivateLinkResourceProperties",
+          "description": "The private link resource properties.",
+          "readOnly": true
         },
         "type": {
           "description": "The private link resource type.",
