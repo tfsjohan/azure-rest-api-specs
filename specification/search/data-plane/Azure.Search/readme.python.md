@@ -30,7 +30,7 @@ These settings apply only when `--tag=package-2021-04-searchservice-preview` is 
 
 ``` yaml $(tag) == 'package-2021-04-searchservice-preview'
 namespace: azure.search.documents.indexes
-output-folder: $(python-sdks-folder)/search/azure-search-documents/azure/search/documents/indexes/_generated
+output-folder: $(python-sdks-folder)/search/azure-search-documents/azure/search/documents/_generated
 ```
 
 ### Tag: package-2021-04-searchindex-preview
@@ -39,5 +39,5 @@ These settings apply only when `--tag=package-2021-04-searchindex-preview` is sp
 
 ``` yaml $(tag) == 'package-2021-04-searchindex-preview'
 namespace: azure.search.documents
-output-folder: $(python-sdks-folder)/search/azure-search-documents/azure/search/documents/_generated
+output-folder: $(python-sdks-folder)/search/azure-search-documents/azure/search/documents/indexes/_generated
 ```
